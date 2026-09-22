@@ -1,4 +1,4 @@
-import PiggyBankImage from '@/assets/images/piggy-bank.png'
+import PiggyBankImage from '../../../assets/images/piggy-bank.png'
 
 export function SimulationHero() {
   return (

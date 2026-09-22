@@ -8,11 +8,11 @@ import {
 } from 'lucide-react'
 import { useParams } from 'react-router-dom'
 
-import { AIInsightsCard } from '@/components/features/SimulationResults/AIInsightCardProps'
-import { Card } from '@/components/features/SimulationResults/Card'
-import { PageHero } from '@/components/shared/PageHero'
-import { useSimulationStorage } from '@/hooks/useSimulationStorage'
-import { calcMonthlySavings } from '@/utils/simulation'
+import { AIInsightsCard } from '../components/features/SimulationResults/AIInsightCardProps'
+import { Card } from '../components/features/SimulationResults/Card'
+import { PageHero } from '../components/shared/PageHero'
+import { useSimulationStorage } from '../hooks/useSimulationStorage'
+import { calcMonthlySavings } from '../utils/simulation'
 
 export function SimulationResultsPage() {
   const { id } = useParams<{ id: string }>()

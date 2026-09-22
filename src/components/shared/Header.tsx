@@ -1,8 +1,7 @@
 import { Clock, Moon, Sun, TrendingUp, Wallet } from 'lucide-react'
 import { useNavigate } from 'react-router-dom'
 
-import { useTheme } from '@/hooks/useTheme'
-
+import { useTheme } from '../../hooks/useTheme'
 import { Button } from './Button'
 import { Divider } from './Divider'
 
